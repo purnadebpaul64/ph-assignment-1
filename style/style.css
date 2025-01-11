@@ -10,6 +10,7 @@
 p {
   font-size: 16px;
   line-height: 24px;
+  color: rgba(14, 14, 14, 70%);
 }
 .container {
   max-width: 1180px;
@@ -255,4 +256,40 @@ select {
   background-color: #c6e4d6;
   box-shadow: 3px 3px 0px 0px rgba(0, 106, 80, 1);
   cursor: pointer;
+}
+
+/* ===== Newslatter Section ===== */
+.newslatter-section {
+  margin: 60px 0px;
+  padding: 50px;
+  border-radius: 24px;
+  background-color: #c6e4d6;
+  text-align: center;
+}
+.input-button-part {
+  margin: 28px 0;
+}
+.input-button-part input {
+  width: 40%;
+  padding: 14px 28px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+}
+.input-button-part button {
+  color: #ffffff;
+  background-color: #006a50;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: -10px;
+  transition: all ease 0.15s;
+}
+.input-button-part button:hover {
+  background-color: #09a15c;
+  cursor: pointer;
+}
+.input-button-part input:focus {
+  outline: none;
 }
