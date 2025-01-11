@@ -7,6 +7,10 @@
 .main-font {
   font-family: "Fira Sans", serif;
 }
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
 .container {
   max-width: 1180px;
   padding: 0 32px;
@@ -186,4 +190,30 @@ select {
   border: 2px solid #0e0e0e;
   border-radius: 4px;
   background-color: rgba(9, 161, 92, 15%);
+}
+
+/* ===== News Section ===== */
+.news-section {
+  margin-top: 54px;
+}
+.news-card {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 16px;
+}
+.news-card-img img {
+  border-radius: 16px;
+}
+.news-card-content img {
+  margin-bottom: 16px;
+}
+.date-time {
+  display: flex;
+  gap: 16px;
+}
+.news-content {
+  margin: 16px 0px 28px 0px;
 }
