@@ -51,6 +51,10 @@ p {
   border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
+  transition: all ease 0.15s;
+}
+.primary-btn:hover {
+  background-color: #09a15c;
 }
 .card-btn {
   color: #ffffff;
@@ -126,18 +130,36 @@ p {
 }
 .vsc-1 button {
   background-color: #5490f5;
+  transition: all ease 0.15s;
+}
+.vsc-1 button:hover {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #5490f5;
+  color: #5490f5;
 }
 .vsc-2 {
   background-color: #c6e4d6;
 }
 .vsc-2 button {
   background-color: #09a15c;
+  transition: all ease 0.15s;
+}
+.vsc-2 button:hover {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #09a15c;
+  color: #09a15c;
 }
 .vsc-3 {
   background-color: #f7ebcf;
 }
 .vsc-3 button {
   background-color: #ffc239;
+  transition: all ease 0.15s;
+}
+.vsc-3 button:hover {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #ffc239;
+  color: #ffc239;
 }
 
 /* ===== Quotes Section ===== */
@@ -223,7 +245,7 @@ select {
 /* ===== Donate Section ===== */
 .donate-section {
   text-align: center;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 60px auto;
 }
 .price-cards {
@@ -234,18 +256,18 @@ select {
 }
 .price-card {
   background-color: #fff;
-  padding: 20px;
+  padding: 20px 34px;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 15%);
   transition: all ease 0.15s;
 }
 .price-card h3 {
-  font-size: 24px;
+  font-size: 32px;
   color: rgba(14, 14, 14, 80%);
 }
 .donate-section input {
   display: block;
-  width: 60%;
+  width: 90%;
   padding: 16px;
   margin: 0 auto;
   text-align: center;
