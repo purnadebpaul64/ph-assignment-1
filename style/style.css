@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
 }
-
+body {
+  background-color: #f5f5f5;
+}
 /* ===== Common Styles ===== */
 .main-font {
   font-family: "Fira Sans", serif;
@@ -16,7 +18,6 @@ p {
   max-width: 1180px;
   padding: 0 32px;
   margin: 0 auto;
-  background: #f5f5f5;
 }
 .secondary-btn {
   padding: 10px 20px;
@@ -292,4 +293,21 @@ select {
 }
 .input-button-part input:focus {
   outline: none;
+}
+footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer-text {
+  width: 600px;
+  margin: 18px auto;
+  border-bottom: 1px solid rgba(14, 14, 14, 15%);
+}
+.icon-img {
+  height: 22px;
+  margin-right: 14px;
+}
+.icon-img:last-child {
+  margin-right: 0px;
 }
