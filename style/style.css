@@ -151,3 +151,39 @@
 .designation {
   color: rgba(14, 14, 14, 60%);
 }
+
+/* ===== Opinion Section ===== */
+.opinion-section {
+  margin-top: 56px;
+}
+.inner-opinion {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+table,
+td {
+  border: 1px solid rgba(14, 14, 14, 15%);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+thead {
+  background-color: #c6e4d6;
+}
+thead th {
+  padding: 18px;
+  font-weight: 600;
+}
+td {
+  padding: 18px;
+}
+select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 2px solid #0e0e0e;
+  border-radius: 4px;
+  background-color: rgba(9, 161, 92, 15%);
+}
