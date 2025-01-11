@@ -133,3 +133,21 @@
 .vsc-3 button {
   background-color: #ffc239;
 }
+
+/* ===== Quotes Section ===== */
+.quotes-section {
+  margin-top: 56px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 15%);
+  background-color: #fff;
+  padding: 10px 24px;
+}
+.inner-quotes {
+  padding: 24px 0px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.designation {
+  color: rgba(14, 14, 14, 60%);
+}
